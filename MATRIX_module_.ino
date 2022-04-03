@@ -1,3 +1,23 @@
+/*
+   (#)
+  .nHn.
+  HHHHH. 
+ `HH("N 
+  HHH  " 
+   NNN
+   N/"
+   N H
+   N
+   q,
+------------
+The proper
+wiring of
+all this is
+in the file
+"wiring.png"
+------------
+*/
+
 #include <LedControl.h>
 
 LedControl lc = LedControl(12, 11, 10, 1);
@@ -62,7 +82,10 @@ void displayPic1() {
     /*
      This forms a penis.
      jajajajjajajajajja
-     - Jo (without the 'e')
+     The 0 means:
+     lmao im off
+     The 1 means:
+     im turned on rn (smirk)
      */
     B00000000,
     B00011000,
@@ -72,6 +95,7 @@ void displayPic1() {
     B01100110,
     B01100110,
     B00000000
+    
   };
 
   for (int col = 0; col < 8; col++)
